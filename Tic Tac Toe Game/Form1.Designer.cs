@@ -127,6 +127,7 @@
             // PICBOX2
             // 
             this.PICBOX2.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX2.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX2.Location = new System.Drawing.Point(643, 109);
             this.PICBOX2.Name = "PICBOX2";
@@ -135,11 +136,12 @@
             this.PICBOX2.TabIndex = 6;
             this.PICBOX2.TabStop = false;
             this.PICBOX2.Tag = "-1";
-            this.PICBOX2.Click += new System.EventHandler(this.PICBOX2_Click);
+            this.PICBOX2.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX1
             // 
             this.PICBOX1.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX1.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX1.Location = new System.Drawing.Point(409, 109);
             this.PICBOX1.Name = "PICBOX1";
@@ -148,11 +150,12 @@
             this.PICBOX1.TabIndex = 7;
             this.PICBOX1.TabStop = false;
             this.PICBOX1.Tag = "-1";
-            this.PICBOX1.Click += new System.EventHandler(this.PICBOX1_Click);
+            this.PICBOX1.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX3
             // 
             this.PICBOX3.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX3.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX3.Location = new System.Drawing.Point(877, 109);
             this.PICBOX3.Name = "PICBOX3";
@@ -161,11 +164,12 @@
             this.PICBOX3.TabIndex = 8;
             this.PICBOX3.TabStop = false;
             this.PICBOX3.Tag = "-1";
-            this.PICBOX3.Click += new System.EventHandler(this.PICBOX3_Click);
+            this.PICBOX3.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX6
             // 
             this.PICBOX6.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX6.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX6.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX6.Location = new System.Drawing.Point(877, 295);
             this.PICBOX6.Name = "PICBOX6";
@@ -174,11 +178,12 @@
             this.PICBOX6.TabIndex = 11;
             this.PICBOX6.TabStop = false;
             this.PICBOX6.Tag = "-1";
-            this.PICBOX6.Click += new System.EventHandler(this.PICBOX6_Click);
+            this.PICBOX6.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX4
             // 
             this.PICBOX4.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX4.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX4.Location = new System.Drawing.Point(409, 295);
             this.PICBOX4.Name = "PICBOX4";
@@ -187,11 +192,12 @@
             this.PICBOX4.TabIndex = 10;
             this.PICBOX4.TabStop = false;
             this.PICBOX4.Tag = "-1";
-            this.PICBOX4.Click += new System.EventHandler(this.PICBOX4_Click);
+            this.PICBOX4.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX5
             // 
             this.PICBOX5.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX5.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX5.Location = new System.Drawing.Point(643, 295);
             this.PICBOX5.Name = "PICBOX5";
@@ -200,11 +206,12 @@
             this.PICBOX5.TabIndex = 9;
             this.PICBOX5.TabStop = false;
             this.PICBOX5.Tag = "-1";
-            this.PICBOX5.Click += new System.EventHandler(this.PICBOX5_Click);
+            this.PICBOX5.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX9
             // 
             this.PICBOX9.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX9.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX9.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX9.Location = new System.Drawing.Point(877, 466);
             this.PICBOX9.Name = "PICBOX9";
@@ -213,11 +220,12 @@
             this.PICBOX9.TabIndex = 14;
             this.PICBOX9.TabStop = false;
             this.PICBOX9.Tag = "-1";
-            this.PICBOX9.Click += new System.EventHandler(this.PICBOX9_Click);
+            this.PICBOX9.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX7
             // 
             this.PICBOX7.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX7.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX7.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX7.Location = new System.Drawing.Point(409, 466);
             this.PICBOX7.Name = "PICBOX7";
@@ -226,11 +234,12 @@
             this.PICBOX7.TabIndex = 13;
             this.PICBOX7.TabStop = false;
             this.PICBOX7.Tag = "-1";
-            this.PICBOX7.Click += new System.EventHandler(this.PICBOX7_Click);
+            this.PICBOX7.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // PICBOX8
             // 
             this.PICBOX8.BackColor = System.Drawing.Color.Transparent;
+            this.PICBOX8.Cursor = System.Windows.Forms.Cursors.Hand;
             this.PICBOX8.Image = global::Tic_Tac_Toe_Game.Properties.Resources.question_mark_96;
             this.PICBOX8.Location = new System.Drawing.Point(643, 466);
             this.PICBOX8.Name = "PICBOX8";
@@ -239,7 +248,7 @@
             this.PICBOX8.TabIndex = 12;
             this.PICBOX8.TabStop = false;
             this.PICBOX8.Tag = "-1";
-            this.PICBOX8.Click += new System.EventHandler(this.PICBOX8_Click);
+            this.PICBOX8.Click += new System.EventHandler(this.PICBOX_Click);
             // 
             // Form1
             // 

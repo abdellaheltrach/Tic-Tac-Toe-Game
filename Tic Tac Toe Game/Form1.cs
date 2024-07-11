@@ -300,7 +300,20 @@ namespace Tic_Tac_Toe_Game
             return Result.Draw; // No winner, check for draw
         }
 
-        private void PICBOX1_Click(object sender, EventArgs e)
+
+        // one event for all the Pic Boxes
+
+        private void PICBOX_Click(object sender, EventArgs e)
+        {
+            UpdateImage((PictureBox)sender);
+        }
+
+
+
+
+
+        // every PixBox Whit the same event
+        /*private void PICBOX1_Click(object sender, EventArgs e)
         {
             UpdateImage(PICBOX1);
         }
@@ -351,7 +364,7 @@ namespace Tic_Tac_Toe_Game
         {
             UpdateImage(PICBOX9);
 
-        }
+        }*/
 
         private void btnRestartTheGame_Click(object sender, EventArgs e)
         {
