@@ -46,8 +46,7 @@ namespace Tic_Tac_Toe_Game
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            lbWinner.TextAlign = ContentAlignment.MiddleCenter;
-
+            lbPlayerTurn.Text = "Player 1";
         }
         static string CourantPlayer  = "Player 1";
 
@@ -125,6 +124,7 @@ namespace Tic_Tac_Toe_Game
                         PICBOX3.Enabled = false;
                         PICBOX4.Enabled = false;
                         PICBOX5.Enabled = false;
+                        PICBOX6.Enabled = false;
                         PICBOX7.Enabled = false;
                         PICBOX8.Enabled = false;
                         PICBOX9.Enabled = false;
@@ -366,12 +366,29 @@ namespace Tic_Tac_Toe_Game
 
         }*/
 
+
+
+
+        private void RestOneButton(PictureBox PICBOX)
+        {
+            PICBOX.Image = Resources.question_mark_96;
+            PICBOX.Tag = "-1";
+            PICBOX.BackColor = Color.Transparent;
+            PICBOX.Enabled = true;
+
+        }
+
+
         private void btnRestartTheGame_Click(object sender, EventArgs e)
         {
             lbPlayerTurn.Text = "Player 1";
+            CourantPlayer = "Player 1";
             lbWinner.Text = "In Progress";
-            
-            
+
+
+
+
+            /*
             //Change all Boxes to Question Mark
             PICBOX1.Image = Resources.question_mark_96;
             PICBOX2.Image = Resources.question_mark_96;
@@ -417,7 +434,16 @@ namespace Tic_Tac_Toe_Game
             PICBOX7.Enabled = true;
             PICBOX8.Enabled = true;
             PICBOX9.Enabled = true;
-
+            */
+            RestOneButton(PICBOX1);
+            RestOneButton(PICBOX2);
+            RestOneButton(PICBOX3);
+            RestOneButton(PICBOX4);
+            RestOneButton(PICBOX5);
+            RestOneButton(PICBOX6);
+            RestOneButton(PICBOX7);
+            RestOneButton(PICBOX8);
+            RestOneButton(PICBOX9);
 
         }
     }

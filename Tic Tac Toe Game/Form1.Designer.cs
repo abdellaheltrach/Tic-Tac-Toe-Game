@@ -84,9 +84,9 @@
             this.lbPlayerTurn.ForeColor = System.Drawing.Color.White;
             this.lbPlayerTurn.Location = new System.Drawing.Point(72, 166);
             this.lbPlayerTurn.Name = "lbPlayerTurn";
-            this.lbPlayerTurn.Size = new System.Drawing.Size(238, 62);
+            this.lbPlayerTurn.Size = new System.Drawing.Size(253, 62);
             this.lbPlayerTurn.TabIndex = 2;
-            this.lbPlayerTurn.Text = "Player1";
+            this.lbPlayerTurn.Text = "Player 1";
             // 
             // lbWinner
             // 
